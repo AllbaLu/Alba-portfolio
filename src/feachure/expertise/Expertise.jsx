@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Expertise() {
 
     const techStack = ["React", "TypeScript", "Node.js", "AWS"];

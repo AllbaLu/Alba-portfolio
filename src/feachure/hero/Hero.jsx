@@ -1,4 +1,3 @@
-import React from "react";
 import fotoPerfil from "../../assets/foto-perfill.png";
 
 export default function Hero() {

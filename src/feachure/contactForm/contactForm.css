@@ -1,0 +1,27 @@
+.contact {
+  max-width: 800px;
+  margin: auto;
+}
+
+.contact__info {
+  margin-bottom: 30px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact__form input,
+.contact__form textarea {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+}
+
+.contact__form input:focus,
+.contact__form textarea:focus {
+  border-color: var(--primary);
+}

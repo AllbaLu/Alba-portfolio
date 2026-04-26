@@ -1,0 +1,25 @@
+.navbar {
+  height: 64px;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar__links a {
+  position: relative;
+  color: var(--text-soft);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar__links a:hover {
+  color: var(--primary);
+}
+
+.navbar__links a.active {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
