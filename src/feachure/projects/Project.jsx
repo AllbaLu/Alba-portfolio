@@ -28,7 +28,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-[20px] px-6 mx-auto bg-[#faf7f7] gap-12">
+    <section id="projects" className="py-20 px-6  bg-[#faf7f7] gap-12">
 
       <div className="max-w-6xl mx-auto"> 
 

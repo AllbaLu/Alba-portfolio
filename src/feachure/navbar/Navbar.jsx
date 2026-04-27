@@ -7,7 +7,7 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="max-w-[1120px] mx-auto flex justify-between items-center px-4 h-16 mt-4">
+        <nav className="py-20 flex justify-between items-center h-16 mt-4">
             
             {/* Logo */}
             <div className="flex items-center gap-2">

@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <section
             id="hero"
-            className="container min-h-screen flex flex-col items-center justify-center px-1 text-center bg-gradient-to-b from-surface-container-lowest to-background"
+            className="py-20 px-6 min-h-screen flex flex-col items-center justify-center px-1 text-center bg-gradient-to-b from-surface-container-lowest to-background"
         >
             {/* Imagen */}
             <div className="relative mb-8">

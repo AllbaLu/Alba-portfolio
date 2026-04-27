@@ -1,53 +1,97 @@
 export default function ContactForm() {
-    return (
+  return (
+    <section id="contact" className="py-24 px-6 bg-[#faf7f7]">
+      
+      {/* CONTENEDOR CENTRADO REAL */}
+      <div className="max-w-5xl mx-auto">
 
-        <section className="py-[80px] px-6 bg-surface-container" id="contact">
-            <div className="container">
+        {/* TITULO */}
+        <div className="text-center mb-14">
+          <span className="text-pink-400 text-xs uppercase tracking-[0.25em]">
+            Get In Touch
+          </span>
 
-                <div className="max-w-[1120px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div className="space-y-8">
-                        <div>
-                            <span className="text-primary font-label-sm uppercase tracking-widest mb-4 block">Get In Touch</span>
-                            <h2 className="font-h2 text-h2 mb-6">Let's build something beautiful.</h2>
-                            <p className="font-body-md text-on-surface-variant mb-8">
-                                Open for freelance opportunities, speaker invitations, or just a friendly chat about design systems.
-                            </p>
-                        </div>
-                        <div className="space-y-4">
-                            <div className="flex items-center gap-4 text-on-surface">
-                                <div className="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center text-primary">
-                                    <span className="material-symbols-outlined">mail</span>
-                                </div>
-                                <span className="font-body-md">hello@sofiamartinez.dev</span>
-                            </div>
-                            <div className="flex items-center gap-4 text-on-surface">
-                                <div className="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center text-primary">
-                                    <span className="material-symbols-outlined">location_on</span>
-                                </div>
-                                <span className="font-body-md">San Francisco, CA</span>
-                            </div>
-                        </div>
-                    </div>
-                    <form className="bg-white p-8 rounded-3xl shadow-sm space-y-6">
-                        <div className="space-y-2">
-                            <label className="font-label-sm text-on-surface-variant ml-1">Name</label>
-                            <input className="w-full bg-surface-container-low border-transparent focus:border-primary-container focus:ring-4 focus:ring-primary-container/10 rounded-xl p-4 transition-all outline-none" placeholder="Your Name" type="text" />
-                        </div>
-                        <div className="space-y-2">
-                            <label className="font-label-sm text-on-surface-variant ml-1">Email</label>
-                            <input className="w-full bg-surface-container-low border-transparent focus:border-primary-container focus:ring-4 focus:ring-primary-container/10 rounded-xl p-4 transition-all outline-none" placeholder="your@email.com" type="email" />
-                        </div>
-                        <div className="space-y-2">
-                            <label className="font-label-sm text-on-surface-variant ml-1">Message</label>
-                            <textarea className="w-full bg-surface-container-low border-transparent focus:border-primary-container focus:ring-4 focus:ring-primary-container/10 rounded-xl p-4 transition-all outline-none resize-none" placeholder="How can I help?" rows="4"></textarea>
-                        </div>
-                        <button className="w-full bg-primary text-on-primary py-4 rounded-xl font-label-sm shadow-md hover:bg-primary/90 transition-all" type="submit">
-                            Send Message
-                        </button>
-                    </form>
+          <h2 className="text-3xl md:text-4xl font-light text-gray-800 mt-3">
+            Let's build something beautiful.
+          </h2>
+
+          <p className="text-gray-500 mt-4 max-w-xl mx-auto text-sm leading-relaxed">
+            Open for freelance opportunities, collaborations or just a friendly chat about design systems.
+          </p>
+        </div>
+
+        {/* GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+
+          {/* INFO */}
+          <div className="space-y-8">
+
+            <div className="space-y-6">
+
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full border border-pink-200 flex items-center justify-center text-pink-400">
+                  <span className="material-symbols-outlined text-sm">mail</span>
                 </div>
-            </div>
-        </section>
+                <span className="text-sm text-gray-700">
+                  albaluccia@gmail.com
+                </span>
+              </div>
 
-    )
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full border border-pink-200 flex items-center justify-center text-pink-400">
+                  <span className="material-symbols-outlined text-sm">location_on</span>
+                </div>
+                <span className="text-sm text-gray-700">
+                  España
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+
+          {/* FORM */}
+          <form className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm space-y-5">
+
+            <div>
+              <label className="text-xs text-gray-500">Name</label>
+              <input
+                type="text"
+                placeholder="Your name"
+                className="w-full mt-2 px-4 py-3 rounded-xl border border-gray-100 focus:border-pink-300 outline-none text-sm"
+              />
+            </div>
+
+            <div>
+              <label className="text-xs text-gray-500">Email</label>
+              <input
+                type="email"
+                placeholder="your@email.com"
+                className="w-full mt-2 px-4 py-3 rounded-xl border border-gray-100 focus:border-pink-300 outline-none text-sm"
+              />
+            </div>
+
+            <div>
+              <label className="text-xs text-gray-500">Message</label>
+              <textarea
+                rows="4"
+                placeholder="How can I help?"
+                className="w-full mt-2 px-4 py-3 rounded-xl border border-gray-100 focus:border-pink-300 outline-none text-sm resize-none"
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="w-full py-3 rounded-xl bg-pink-400 text-white text-sm hover:bg-pink-300 transition"
+            >
+              Send Message
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+  );
 }

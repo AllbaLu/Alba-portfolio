@@ -34,6 +34,7 @@ export default function Footer() {
             <button className="fixed bottom-8 right-8 w-16 h-16 bg-primary text-on-primary rounded-full shadow-2xl flex items-center justify-center group active:scale-95 transition-all z-40">
                 <span className="material-symbols-outlined text-3xl group-hover:rotate-12 transition-transform">
                     smart_toy
+                    <p className="sr-only">soon</p>
                 </span>
             </button>
         </>

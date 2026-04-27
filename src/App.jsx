@@ -14,15 +14,19 @@ function App() {
   return (
     <div className="min-h-screen bg-[#faf7f7] text-gray-800">
 
-      <Navbar />
+      <div className="max-w-5xl mx-auto px-10 sm:px-12 lg:px-16 xl:px-20">
 
-      <main className="w-full">
-        <Hero />
-        <Expertise />
-        <Projects />
-        <Resources />
-        <Contact />
-      </main>
+        <Navbar />
+
+        <main className="space-y-24">
+          <Hero />
+          <Expertise />
+          <Projects />
+          <Resources />
+          <Contact />
+        </main>
+
+      </div>
 
       <Footer />
 
