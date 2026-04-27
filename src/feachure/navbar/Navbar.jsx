@@ -11,9 +11,7 @@ export default function Navbar() {
             
             {/* Logo */}
             <div className="flex items-center gap-2">
-                <span className="material-symbols-outlined text-rose-400 dark:text-rose-300">
-                    terminal
-                </span>
+                
                 <span className="text-xl font-bold text-stone-900 dark:text-stone-50 tracking-tighter">
                     Portfolio
                 </span>
@@ -41,7 +39,7 @@ export default function Navbar() {
             {/* CTA */}
             <a
                 href="#contact"
-                className="bg-primary-container text-on-primary-container px-6 py-2 rounded-full active:scale-95 transition-transform"
+                className="btn btn-primary text-on-primary-container px-6 py-2 rounded-full active:scale-95 transition-transform"
             >
                 Contact
             </a>

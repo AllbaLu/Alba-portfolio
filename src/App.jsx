@@ -12,7 +12,7 @@ function App() {
   useScrollEffect();
 
   return (
-    <>
+    <div className="max-w-[1120px] mx-auto px-6">
       <Navbar />
       <Hero />
       <Expertise />
@@ -20,8 +20,8 @@ function App() {
       <Resources />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
-export default App;
+export default App; 
