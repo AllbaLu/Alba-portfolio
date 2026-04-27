@@ -1,7 +1,4 @@
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* RESET */
 * {
@@ -15,9 +12,9 @@ html {
 }
 
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  background-color: #fdfaf9;
-  color: #1c1b1f;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #faf7f7;
 }
 
 /* 🎨 SERENE LOGIC COLORS */

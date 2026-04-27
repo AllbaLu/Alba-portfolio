@@ -13,7 +13,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        /* 🌸 SERENE LOGIC PALETTE */
+        
 
         /* Primary (rosa suave elegante) */
         primary: "#e8a0a8",

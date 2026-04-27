@@ -12,14 +12,20 @@ function App() {
   useScrollEffect();
 
   return (
-    <div className="max-w-[1120px] mx-auto px-6">
+    <div className="min-h-screen bg-[#faf7f7] text-gray-800">
+
       <Navbar />
-      <Hero />
-      <Expertise />
-      <Projects />
-      <Resources />
-      <Contact />
+
+      <main className="w-full">
+        <Hero />
+        <Expertise />
+        <Projects />
+        <Resources />
+        <Contact />
+      </main>
+
       <Footer />
+
     </div>
   );
 }

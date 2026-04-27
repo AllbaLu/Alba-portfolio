@@ -43,7 +43,7 @@ export default function Expertise() {
   return (
     <section
       id="expertise"
-      className="py-[10px] px-2 max-w-[1100px] mx-auto"
+      className="px-2 max-w-[1100px] mx-auto"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 

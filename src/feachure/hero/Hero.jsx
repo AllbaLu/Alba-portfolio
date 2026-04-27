@@ -9,7 +9,7 @@ export default function Hero() {
             className="container min-h-screen flex flex-col items-center justify-center px-1 text-center bg-gradient-to-b from-surface-container-lowest to-background"
         >
             {/* Imagen */}
-            <div className="relative mb-6">
+            <div className="relative mb-8">
                 <div className="absolute inset-[-8px] bg-primary-fixed rounded-full blur-xl opacity-30"></div>
 
                 <div className="w-[230px] sm:w-[250px] md:w-[260px] mx-auto p-1">
@@ -22,11 +22,11 @@ export default function Hero() {
             </div>
 
             {/* Texto */}
-            <h1 className="text-h1 text-on-surface mb-4 p-1">
+            <h1 className="text-h1 text-on-surface mt-4 mb-4 p-1">
                 Hello, I'm {name}.
             </h1>
 
-            <p className="text-body-lg text-on-surface-variant max-w-lg mb-6">
+            <p className="text-body-lg text-on-surface-variant max-w-lg mt-4 mb-6">
                 A software engineer crafting elegant solutions with a focus on human-centric design and technical precision.
             </p>
 
