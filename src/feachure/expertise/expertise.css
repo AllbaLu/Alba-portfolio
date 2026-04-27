@@ -1,4 +1,4 @@
-.expertise {
+/*.expertise {
   display: grid;
   gap: 40px;
 }
@@ -27,4 +27,4 @@
 
 @keyframes blink {
   50% { opacity: 0; }
-}
+} */

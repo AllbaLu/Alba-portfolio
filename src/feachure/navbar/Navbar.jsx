@@ -7,7 +7,7 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="max-w-[1120px] mx-auto flex justify-between items-center px-8 h-16">
+        <nav className="max-w-[1120px] mx-auto flex justify-between items-center px-4 h-16 mt-4">
             
             {/* Logo */}
             <div className="flex items-center gap-2">
@@ -39,7 +39,7 @@ export default function Navbar() {
             {/* CTA */}
             <a
                 href="#contact"
-                className="btn btn-primary text-on-primary-container px-6 py-2 rounded-full active:scale-95 transition-transform"
+                className="btn btn-primary text-on-primary-container px-1 py-2 rounded-full active:scale-95 transition-transform mt-4"
             >
                 Contact
             </a>

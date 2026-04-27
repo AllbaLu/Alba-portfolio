@@ -4,6 +4,12 @@ export default {
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+        safelist: [
+        "text-pink-400",
+        "text-rose-300",
+        "text-emerald-400",
+        "text-amber-300"
+],
   theme: {
     extend: {
       colors: {
@@ -67,6 +73,8 @@ export default {
         "2xl": "1.5rem",
         "3xl": "2rem",
       },
+
+
     },
   },
   plugins: [],
