@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  margin-left: auto;
+  padding-inline: 10rem;
   font-family: system-ui, sans-serif;
   background: #faf7f7;
 }
@@ -41,10 +41,6 @@ section {
   max-width: 1200px;
   width: 100%;
   margin-inline: auto;
-}
-
-section + section {
-  margin-top: 4rem;
 }
 
 .section-dim {

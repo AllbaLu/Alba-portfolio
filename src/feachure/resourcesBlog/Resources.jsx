@@ -20,7 +20,7 @@ export default function Resources() {
   ];
 
   return (
-    <section id="resources" className="py-20 px-6 bg-[#faf7f7]">
+    <section id="resources" className="mt-24 py-20 px-6 bg-[#faf7f7]">
 
 
       <div className="max-w-5xl mx-auto">
