@@ -33,15 +33,19 @@ export default function Hero() {
             {/* Botones */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 py-1 text-sm max-w-md mx-auto w-full">
 
-                <a href="/cv.pdf" className="btn btn-primary flex items-center justify-center w-full">
-                    Download CV
+                <a
+                href="/AlbaRodriguez-cv-es.pdf"
+                download
+                className="btn btn-primary flex items-center justify-center w-full"
+                >
+                Download CV
                 </a>
                 <a href="#projects" className="btn btn-outline flex items-center justify-center w-full">
                     Projects
                 </a>
-                <a href="#stack" className="btn btn-outline flex items-center justify-center bg-surface-container-high w-full">
+                {/*<a href="#stack" className="btn btn-outline flex items-center justify-center bg-surface-container-high w-full">
                     My Stack
-                </a>
+                </a>*/}
 
             </div>
         </section>

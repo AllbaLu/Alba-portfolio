@@ -11,7 +11,10 @@ export default function Expertise() {
     "Node.js",
     "Tailwind",
     "AWS",
-    "Docker"
+    "Docker",
+    "Python",
+    "JavaScript",
+    "Java"
   ];
 
   const codeString = `class DeveloperPortfolio {
@@ -58,8 +61,8 @@ export default function Expertise() {
           </h2>
 
           <p className="text-on-surface-variant mb-6">
-            I specialize in building scalable web applications using React, Node.js, and Cloud architectures.
-            My approach blends rigorous engineering with a refined minimalist aesthetic.
+           I am a Full-Stack Developer specializing in building scalable, high-performance web applications using React, Node.js, and modern cloud architectures. 
+           I bring end-to-end expertise—from intuitive front-end interfaces to resilient back-end systems—combining strong engineering principles with a clean, minimalist approach to deliver efficient, user-focused solutions.
           </p>
 
           <div className="flex flex-wrap gap-3">

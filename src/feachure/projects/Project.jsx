@@ -7,23 +7,23 @@ export default function Projects() {
     {
       title: "Horse Trust",
       description: "Platform to manage horse care and adoption with a calm and intuitive user experience.",
-      tech: ["React", "Vite"],
+      tech: ["React", "Vite", "Java", "Docker"],
       image: horseTrust,
       url: "https://horsetrust.vercel.app/"
     },
     {
       title: "Eco Shop",
       description: "Sustainable e-commerce experience with a focus on simplicity and clarity.",
-      tech: ["React", "Tailwind"],
+      tech: ["React", "Bootstrap", "Node.js", "AWS", "Python"],
       image: ecoShop,
       url: "https://eco-shop-theta.vercel.app/"
     },
     {
-      title: "Serene Analytics",
-      description: "Minimal data visualization platform designed to reduce cognitive overload.",
-      tech: ["Next.js"],
-      image: horseTrust,
-      url: "#"
+      title: "BeautyFitness",
+      description: "A fitness and beauty e-commerce platform designed with a clean, user-friendly interface.",
+      tech: ["JavaScript", "Python", "React", "REST API", "Redux"],
+      image: "BeautyFitness",
+      url: "https://github.com/AllbaLu/BeautyFitness/tree/main/src"
     }
   ];
 
