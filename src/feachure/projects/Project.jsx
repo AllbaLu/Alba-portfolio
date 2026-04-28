@@ -22,7 +22,7 @@ export default function Projects() {
       title: "BeautyFitness",
       description: "A fitness and beauty e-commerce platform designed with a clean, user-friendly interface.",
       tech: ["JavaScript", "Python", "React", "REST API", "Redux"],
-      image: "BeautyFitness",
+      image: "https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/480784686_2978281672336761_5912608810874563083_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=2a1932&_nc_ohc=rTKMSVCBax0Q7kNvwHavZ5H&_nc_oc=Adp9eMEOZiqYHp1fZ4sF0S86SoucdZbEkCsT7vG_4tcHQC8g_sphD0o-LE0TF5wv7wA&_nc_zt=23&_nc_ht=scontent-mad1-1.xx&_nc_gid=GPr3lyjEM8yjPDjfZsynPA&_nc_ss=7b289&oh=00_Af1sEs_fEse3cm0lhDcBePCbT2XIxhxw7CXiqyKM2pdydg&oe=69F60704",
       url: "https://github.com/AllbaLu/BeautyFitness/tree/main/src"
     }
   ];

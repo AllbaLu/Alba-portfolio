@@ -1,31 +1,41 @@
+import ebookImage from "../../assets/ebookImage.png";
+
 export default function Resources() {
 
   const resources = [
     {
       type: "ebook",
       title: "Free eBook",
-      description: "Master the art of writing maintainable CSS and component-driven architecture.",
+      description:
+        "10 projects to improve your skills.",
       label: "Download",
-      visual: "Clean Code UI",
-      url: "#"
+      visual: "Clean Code Principles",
+
+      // 👉 ARCHIVO REAL 
+      url: "/Ebook_10_proyectos_COMPLETO.pdf",
+      download: true,
+      image: ebookImage
     },
     {
       type: "video",
       title: "Latest Tutorial",
-      description: "Building a responsive portfolio with Tailwind CSS and smooth animations.",
+      description:
+        "Building a responsive portfolio with Tailwind CSS and smooth animations.",
       label: "Watch",
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA3FhYPQE8x8mQD_vCDznMe_jvhPzeq1_GRGA_5VPeNIEVCYCCucDCCf1oe1ApLryZTXg70lyroaBU5aVky0eBXU0b8CaEk9IDqOsDVcZTk965946WDiHxjqaYxCGWf_MhvnNX7G6shPaLO4JKwdn7TgaekQ0hhk_bSCLjobqiEEkCPWceW7OAgm9SDw3aeqx-pY1y-HmIQssr9SBQQjaj4xlM6KtJ1j7_yBjruL8Jze5BrXCOGfa7uYOzEyWSyBgH057pHJPQNfLU",
-      url: "#"
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuA3FhYPQE8x8mQD_vCDznMe_jvhPzeq1_GRGA_5VPeNIEVCYCCucDCCf1oe1ApLryZTXg70lyroaBU5aVky0eBXU0b8CaEk9IDqOsDVcZTk965946WDiHxjqaYxCGWf_MhvnNX7G6shPaLO4JKwdn7TgaekQ0hhk_bSCLjobqiEEkCPWceW7OAgm9SDw3aeqx-pY1y-HmIQssr9SBQQjaj4xlM6KtJ1j7_yBjruL8Jze5BrXCOGfa7uYOzEyWSyBgH057pHJPQNfLU",
+      url: "https://youtube.com"
     }
   ];
 
   return (
-    <section id="resources" className="mt-28 py-20 px-4 sm:px-6 bg-[#faf7f7]">
-
-
+    <section
+      id="resources"
+      className="mt-28 py-20 px-4 sm:px-6 bg-[#faf7f7]"
+    >
       <div className="max-w-5xl mx-auto">
 
-        {/* Header */}
+        {/* HEADER */}
         <div className="text-center mb-12">
           <span className="text-pink-400 uppercase tracking-[0.2em] text-xs block mb-2">
             Resources
@@ -43,14 +53,17 @@ export default function Resources() {
             <a
               key={index}
               href={res.url}
-              target="_blank"
+
+              // 👉 SOLO DESCARGA SI ES EBOOK
+              download={res.download ? true : undefined}
+
+              target={res.type === "video" ? "_blank" : undefined}
               rel="noopener noreferrer"
               className="group block no-underline"
             >
-
               <div className="bg-white border border-gray-200 hover:border-pink-300 rounded-2xl p-4 flex gap-4 items-center transition-all duration-300">
 
-                {/* VISUAL MÁS PEQUEÑO */}
+                {/* VISUAL */}
                 {res.type === "ebook" ? (
                   <div className="w-16 h-24 bg-pink-50 border border-pink-200 rounded-lg flex items-center justify-center text-center px-2">
                     <span className="text-[10px] text-pink-400 font-medium leading-tight">
@@ -66,7 +79,6 @@ export default function Resources() {
                       className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition"
                     />
 
-                    {/* Play icon */}
                     <div className="absolute inset-0 flex items-center justify-center">
                       <span className="text-white text-xs bg-black/50 rounded-full px-2 py-1">
                         ▶
@@ -87,7 +99,6 @@ export default function Resources() {
                     {res.description}
                   </p>
 
-                  {/* CTA */}
                   <div className="mt-2 text-xs text-pink-400 opacity-80 group-hover:opacity-100 transition">
                     {res.label} →
                   </div>
@@ -95,7 +106,6 @@ export default function Resources() {
                 </div>
 
               </div>
-
             </a>
           ))}
 
