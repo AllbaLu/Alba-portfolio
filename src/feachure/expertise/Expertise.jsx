@@ -43,7 +43,7 @@ export default function Expertise() {
   return (
     <section
       id="expertise"
-      className="py-20 px-6"
+      className="mt-24 py-20 px-4 sm:px-6"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 

@@ -28,9 +28,9 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="mt-30 py-30 px-6 bg-[#faf7f7] gap-12">
+    <section id="projects" className="mt-28 py-20 px-4 sm:px-6 bg-[#faf7f7]">
 
-      <div className="max-w-6xl mx-auto"> 
+      <div className="max-w-6xl mx-auto">
 
         {/* Header */}
         <div className="mb-14 mt-4 text-center">

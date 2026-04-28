@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[#faf7f7] text-gray-800">
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl mx-auto px-4 pl-15 sm:px-6 lg:px-8">
 
         <Navbar />
 

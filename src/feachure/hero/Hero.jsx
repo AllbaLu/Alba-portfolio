@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <section
             id="hero"
-            className="py-20 px-6 min-h-screen flex flex-col items-center justify-center px-1 text-center bg-gradient-to-b from-surface-container-lowest to-background"
+            className="py-20 px-4 sm:px-6 min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-b from-surface-container-lowest to-background"
         >
             {/* Imagen */}
             <div className="relative mb-8">
@@ -31,15 +31,15 @@ export default function Hero() {
             </p>
 
             {/* Botones */}
-            <div className="flex grid grid-cols-3 gap-x-8 py-1 text-sm max-w-md mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 py-1 text-sm max-w-md mx-auto w-full">
 
-                <a href="/cv.pdf" className="btn btn-primary flex-1 flex items-center justify-center mx-4"> 
-                    Download CV 
-                </a> 
-                <a href="#projects" className="btn btn-outline flex-1 flex items-center justify-center mx-4"> 
-                    Projects 
-                </a> 
-                <a href="#stack" className="btn btn-outline flex-1 flex items-center justify-center bg-surface-container-high mx-4"> 
+                <a href="/cv.pdf" className="btn btn-primary flex items-center justify-center w-full">
+                    Download CV
+                </a>
+                <a href="#projects" className="btn btn-outline flex items-center justify-center w-full">
+                    Projects
+                </a>
+                <a href="#stack" className="btn btn-outline flex items-center justify-center bg-surface-container-high w-full">
                     My Stack
                 </a>
 

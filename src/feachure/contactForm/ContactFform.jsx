@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <section id="contact" className="mt-24 py-24 px-6 bg-[#faf7f7]">
+    <section id="contact" className="mt-28 py-24 px-4 sm:px-6 bg-[#faf7f7]">
       
       {/* CONTENEDOR CENTRADO REAL */}
       <div className="max-w-5xl mx-auto">
