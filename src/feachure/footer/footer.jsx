@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+/*import { useEffect } from "react";
 
 export default function Footer() {
 
@@ -39,4 +39,4 @@ export default function Footer() {
             </button>
         </>
     );
-}
+}*/

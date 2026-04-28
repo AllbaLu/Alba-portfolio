@@ -4,7 +4,7 @@ import Expertise from "./feachure/expertise/Expertise";
 import Projects from "./feachure/projects/Project";
 import Resources from "./feachure/resourcesBlog/Resources";
 import Contact from "./feachure/contactForm/ContactFform";
-import Footer from "./feachure/footer/footer";
+
 
 import useScrollEffect from "./hooks/useScrollEffect";
 
@@ -28,7 +28,7 @@ function App() {
 
       </div>
 
-      <Footer />
+     
 
     </div>
   );
